@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="tabla.html">
+<script src="https://unpkg.com/scrollreveal"></script>
+<title>TravelbyAli</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark fixed-top " id="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Bienvenido</a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link" href="sesión.html">Iniciar Sesión <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contactenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <main id="jmain">
+      <div class="jumbotron" >
+        <br><br>
+        <h1 class="display-4">Hola Viajeros!</h1>
+        <p class="lead">Bienvenidos a su página de aventuras , donde encontrarás buenos tips de viaje , además compartiremos con todos ,cada viaje al rededor del mundo</p>
+        <hr class="my-4">
+        <p id="aqui">dando click en el siguiente botón ,podrás ver algunas de las personas que se han unido con nosotros a la aventura , animate tu también</p>
+        <!--boton de modal-->
+        <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#exampleModal " id="modal">Learn more</a>
+
+        <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">viajeros</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+              <!--body del modal-->
+                <div class=" m-5 text-center" id="contenido">
+                  
+   
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <section>
+         <!--empieza las columas-->
+      <div class="container ">
+        <!--caja #1-->
+        <div class="row" >
+          <div class="col-sm">
+          <img  class=" img img-fluid rounded-circle  bg-primary " id="img1" src="https://www.hola.com/imagenes/viajes/20200617168974/cascadas-increibles-en-la-naturaleza-de-costa-rica/0-829-426/cascadas-mas-espectaculares-de-costa-rica-m.jpg" alt="" srcset="">
+          <br>
+          <br>
+          <h2 id="h1">Costa Rica</h2>
+          <p id="p1"> Costa Rica es un país pequeño situado en la América Central con una superficie de 51.100 km2 tan solo mayor que El Salvador y Belice, pero, desde muchos puntos de vista, es un gran destino para el visitante Es un país, de gran potencial turístico que está valorado como uno de los destinos internacionales más visitados.</p>
+          <button type="button" class="btn btn-primary m-5" id="btn1">Ver/Ocultar</button>
+          </div>
+          <!--caja #2-->
+          <div class="col-sm">
+              <img class=" img img-fluid rounded-circle bg-primary" id="img2" src="https://www.turismomexico.es/wp-content/uploads/2015/07/chichen_itza.jpg" alt="" srcset="">
+              <br>
+              <br>
+            <h2 id="h2">Mexico</h2>
+            <p id="p2">Su diverso paisaje de montañas, desiertos y selvas. Las ruinas antiguas, como Teotihuacán y la ciudad maya de Chichén Itzá, se distribuyen por el país, al igual que las ciudades de la época colonial española. En la capital Ciudad de México, las elegantes tiendas, los famosos museos y los restaurantes gourmet son parte de la vida moderna.</p>
+            <button type="button" class="btn btn-primary m-5 " id="btn2">Ver/Ocultar</button>
+          </div>
+          <!--caja #3-->
+          <div class="col-sm">
+          <img class=" img img-fluid rounded-circle bg-primary" id="img3" src="https://ansabrasil.com.br/webimages/al_news_476x/2019/6/6/ce5c9594ecbcd150461142061b6b88c7.jpg" alt="" srcset="">
+          <br>
+          <br>
+          <h2 id="h3">Estados Unidos</h2>
+          <p id="p3">Entre las principales ciudades de la costa del Atlántico, se encuentran Nueva York, un centro global financiero y cultural, y la capital Washington D. C. Chicago, metrópolis del medio oeste, es famosa por su influencia arquitectónica y, en la costa oeste, Hollywood, Los Ángeles, es famosa por la industria cinematográfica.</p>
+          <br>
+          <button type="button" class="btn btn-primary m-5" id="btn3">Ver/Ocultar</button>  
+          </div>
+        </div>
+
+      </section>
+     
+      </div>
+      <a href="tabla.html" class="btn btn-danger" id="btninicio">VER TABLA</a>
+    
+
+     
+     
+
+    </main>
+
+    <section id="sec">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="info-left">
+              <img src="https://img.freepik.com/vector-gratis/pareja-vacaciones-vacaciones-alrededor-viaje-mundial-tour-agencia-viajes_335657-2497.jpg?w=2000" style="width:100% ;" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 my-auto">
+            <div class="info-right">
+              <h3>Nos caracterizamos por ofrecerle a nuestros clientes un servicio ágil, personalizado y oportuno, gracias a la amplia experiencia acumulada a lo largo de los años dentro del mercado del turismo. Nuestra fortaleza se enfoca en el carisma y don de servicio de cada uno de nuestros colaboradores, quienes le facilitarán en los diferentes países toda la colaboración para que cada viaje sea inolvidable..</h3>
+    
+            </section>
+      
+    
+
+    <footer class="d-flex justify-content-around">
+      <p> &copy;; Alison Quesada 2022</p> 
+      <p> &phone; 71895506</p> 
+      <p>aquesadasandoval@gmail.com  </p>
+
+      
+      
+      </footer>
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

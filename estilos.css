@@ -1,0 +1,149 @@
+.img{
+    text-align: center;
+    width:75%;
+  height:40%;
+
+}
+
+.imgfondo{
+ 
+  background-image: url("https://blog.centraldereservas.com/wp-content/uploads/2017/05/avion-1.jpg");
+  background-size: 100% auto; 
+    background-repeat: no-repeat;
+  }
+
+  #login-box {
+    border: black;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+  
+    ;
+    padding: 20px 50px;
+}
+
+#login-box h1 {
+  color: black;
+}
+
+
+#login-box .form .item input {
+  width: 200px; 
+  border: 0; 
+  border-bottom: 5px solid black;
+  font-size: 18px; 
+  background: #ffffff00; 
+  color:black;
+  padding: 5px 10px; 
+}
+
+
+#login-box .form .item i {
+  color: black;
+  font-size: 18px;
+}
+
+#login-box button {
+  border: 0; 
+  width: 150px; 
+  height: 30px;
+  margin-top: 18px; 
+  font-size: 18px;
+  color: black;
+  border-radius: 25px; 
+  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); 
+}
+
+.texto{
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+
+}
+#btninicio{
+padding: 10px;
+margin: 20px;
+}
+
+#h1texto{
+  font-family: Geneva;
+}
+#ptexto{
+  font-family:   Verdana;
+}
+
+#form{
+  margin: 10em;
+  padding: 30px;
+  
+}
+#bodyform{
+  background-image: url("https://c8.alamy.com/compes/2bnbrj6/linea-de-vuelo-punteada-de-avion-patron-sin-costuras-trayectoria-de-vuelo-de-avion-fondo-de-pantalla-vector-concepto-de-viaje-avion-avion-patron-avion-de-viaje-sin-costuras-2bnbrj6.jpg");
+
+}
+
+ #label2{
+  background-color:white;
+ }
+ 
+ #label1{
+  background-color:white;
+
+ }
+
+ #label3{
+  background-color:white;
+
+ }
+
+ #label4{
+  background-color:white;
+
+ }
+
+ main{
+  
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,53,253,1) 100%);
+}
+table thead {
+      background:#302b63;
+      color:white;
+  }
+
+  .display-4{
+    font-family: Geneva;
+
+  }
+  #nav{
+    background-color:rgba(45,53,253,1) 
+  }
+  p{
+    font-family:   Verdana
+  }
+  
+  h2{
+    font-family: Geneva
+  }
+
+ #imgmodal{
+  text-align: center;
+  width:20%;
+height:20%;
+ }
+
+ #imgf{
+  text-align: center;
+  width:200px;
+height:200px;
+
+
+ }
+
+#sec{
+  border-width: 20px;
+  border-style: solid;
+  border-color: rgba(34,193,195,1);
+}
+#derechos{
+  color: beige; }
